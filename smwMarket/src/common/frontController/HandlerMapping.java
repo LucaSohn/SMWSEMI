@@ -12,19 +12,27 @@ public class HandlerMapping {
 
 	public HandlerMapping() {
 
-		// 모든 컨트롤러 리스트에 넣을것. - Ryan
+		// 모든 컨트롤러 구현하려면 아래와같이 리스트에 넣을것. - Ryan
 
 		list = new HashMap<String, Controller>();
 		list.put("index", new IndexController());
-		// list.put("book", new BookController());
-		// list.put("index", new IndexController());
-		// list.put("member", new MemberController());
-		// list.put("mypage", new MyPageController());
-		// list.put("use", new UseController());
-		// list.put("notice", new NoticeController());
 
 	}
 
+	/**
+	 * <pre>
+	 * common.frontController
+	 * HandlerMapping.java
+	 * </pre>
+	 * 
+	 * @작성자 : Ryan Oh
+	 * @작업일 : 2020. 4. 23.
+	 * @해야할일 :TODO Controller 이름 URI 이름과 통일할 것
+	 * 
+	 * @param uriArr
+	 * @return
+	 * @throws Status404
+	 */
 	public Controller getController(String[] uriArr) throws Status404 {
 
 		Controller res = list.get(uriArr[2]);
@@ -34,6 +42,20 @@ public class HandlerMapping {
 		return res;
 	}
 
+	/**
+	 * <pre>
+	 * common.frontController
+	 * HandlerMapping.java
+	 * </pre>
+	 * 
+	 * @작성자 : Ryan Oh
+	 * @작업일 : 2020. 4. 23.
+	 * @해야할일 :TODO - 추가되는 기능 URI 와 Controller Method이름 통일할 것.
+	 * 
+	 * @param uriArr
+	 * @return
+	 * @throws Status404
+	 */
 	public String getMethod(String[] uriArr) throws Status404 {
 
 		String methodName = "";

@@ -84,3 +84,13 @@
 0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:02:45 +0900] "GET /smwMarket/resources/css/common.css HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:02:45 +0900] "GET /smwMarket/resources/img/main.jpg HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:02:45 +0900] "GET /favicon.ico HTTP/1.1" 404 761
+127.0.0.1 - - [23/Apr/2020:01:45:51 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:45:53 +0900] "GET /smwMarket/index.jsp HTTP/1.1" 200 230
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:45:53 +0900] "GET /smwMarket/index/index.do HTTP/1.1" 500 3491
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:45:53 +0900] "GET /favicon.ico HTTP/1.1" 404 761
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:46:29 +0900] "GET /smwMarket/index.jsp HTTP/1.1" 500 2845
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:46:29 +0900] "GET /favicon.ico HTTP/1.1" 404 761
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:49:09 +0900] "GET /smwMarket/index.jsp HTTP/1.1" 500 2845
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:49:09 +0900] "GET /favicon.ico HTTP/1.1" 404 761
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:49:12 +0900] "GET /smwMarket/ HTTP/1.1" 200 230
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:49:12 +0900] "GET /smwMarket/index/index.do HTTP/1.1" 404 721

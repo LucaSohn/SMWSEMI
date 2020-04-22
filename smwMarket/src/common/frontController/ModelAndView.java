@@ -7,7 +7,7 @@ public class ModelAndView {
 	// view의 경로
 	private String view = "";
 	// view보낼 데이터
-	private HashMap<String, Object> data = new HashMap<String,Object>();
+	private HashMap<String, Object> data = new HashMap<String, Object>();
 
 	public ModelAndView() {
 

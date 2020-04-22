@@ -1,0 +1,5 @@
+INDEX VERSION 1.130
+D:\JAVA_REPOSITORY\semiSMW\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1941657693.index
+\smwMarket\src
+D:\JAVA_REPOSITORY\semiSMW\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1572644093.index
+\smwMarket\src

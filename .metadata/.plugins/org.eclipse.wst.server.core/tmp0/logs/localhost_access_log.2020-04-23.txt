@@ -78,3 +78,9 @@
 0:0:0:0:0:0:0:1 - - [23/Apr/2020:00:35:11 +0900] "GET /smwMarket/index/index.do HTTP/1.1" 200 1393
 0:0:0:0:0:0:0:1 - - [23/Apr/2020:00:35:11 +0900] "GET /smwMarket/index/index.do HTTP/1.1" 200 1393
 0:0:0:0:0:0:0:1 - - [23/Apr/2020:00:35:12 +0900] "GET /smwMarket/index/index.do HTTP/1.1" 200 1393
+127.0.0.1 - - [23/Apr/2020:01:02:44 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:02:45 +0900] "GET /smwMarket/index.jsp HTTP/1.1" 200 230
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:02:45 +0900] "GET /smwMarket/index/index.do HTTP/1.1" 200 1393
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:02:45 +0900] "GET /smwMarket/resources/css/common.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:02:45 +0900] "GET /smwMarket/resources/img/main.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [23/Apr/2020:01:02:45 +0900] "GET /favicon.ico HTTP/1.1" 404 761

@@ -11,8 +11,10 @@
 
 <body>
 
+	//여기 모르겠어요.
 	<script type="text/javascript">
-		location.href = "<%=request.getContextPath()%>/index/index.do";
+		location.href = "<%=request.getContextPath()%>
+		/index/index.do";
 	</script>
 
 </body>
